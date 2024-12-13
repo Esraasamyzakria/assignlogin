@@ -1,0 +1,22 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background: #24353f;
+}
+.form-control::placeholder{
+    color: #95989b;
+}
+.form-control:focus {
+    outline: 0;
+    box-shadow:none;
+}
+#signinEmail,#signinPassword ,#signupName,#signupEmail,#signupPassword{
+    background-color: #24353f;
+    color: #fff;
+    
+}
+.text-header{
+    color: #17a2b8;
+}
+a{
+    text-decoration: none;
+}
