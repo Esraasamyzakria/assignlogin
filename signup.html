@@ -17,10 +17,17 @@
             <h1 class="text-header">Smart Login System</h1>
 
             <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+            <p id="massageValidName"  class=" massageValid alert alert-danger p-1 d-none"> Please follow the rules below :
+                Site name must contain at least 3 characters</p>
             <input id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+            <p id="massageValidEmail"  class=" alert alert-danger p-1 d-none">Please follow the rules below :
+                Invalid email! A valid email should:\n" + Contain '@' and a domain (e.g., @gmail.com).\n + Not have spaces or special characters.</p>
 
             <input id="signupPassword" class="form-control my-3  " placeholder="Enter  password" type="password">
+            <p id="massageValidPassword" class=" alert alert-danger p-1 d-none">Please follow the rules below :
+                Minimum eight characters,</p>
             <p id="vaild"></p>
+
 
             <button  class="btn btn-outline-info w-100 my-3 sign-up">Sign Up</button>
             <p class="text-white">You have an account? <a class="text-white" href="/index.html">Signin</a></p>
